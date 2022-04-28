@@ -17,27 +17,27 @@ namespace ProyectoBiblioteca.Controllers
 
 		public string ObtenerLibro() 
 		{ 
-			return "Ok Bro no molestes";
+			return "Libro";
 		}
 
 		[HttpPut]
 
 		public string ActualizarLibro()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permiso";
 		}
 
 		[HttpPost]
 
 		public string AgregarLibro()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permiso";
 		}
 
 		[HttpDelete]
 		public string BorrarLibro()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permiso";
 		}
 
 		//Prestamo
@@ -45,27 +45,27 @@ namespace ProyectoBiblioteca.Controllers
 
 		public string ObtenerPrestamo()
 		{
-			return "Ok Bro no molestes";
+			return "Estado prestamo:";
 		}
 
 		[HttpPut]
 
 		public string ActualizarPrestamo()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permisos";
 		}
 
 		[HttpPost]
 
 		public string AgregarPrestamo()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permisos";
 		}
 
 		[HttpDelete]
 		public string BorrarPrestamo()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permisos";
 		}
 
 		//Autor
@@ -73,27 +73,27 @@ namespace ProyectoBiblioteca.Controllers
 		[HttpGet]
 		public string ObtenerAutor()
 		{
-			return "Ok Bro no molestes";
+			return "Autor:";
 		}
 
 		[HttpPut]
 
 		public string ActualizarAutor()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permisos";
 		}
 
 		[HttpPost]
 
 		public string AgregarAutor()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permisos";
 		}
 
 		[HttpDelete]
 		public string BorrarAutor()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permisos";
 		}
 
 		//Estudiante
@@ -101,27 +101,27 @@ namespace ProyectoBiblioteca.Controllers
 		[HttpGet]
 		public string ObtenerEstudiante()
 		{
-			return "Ok Bro no molestes";
+			return "Estudiante:";
 		}
 
 		[HttpPut]
 
 		public string ActualizarEstudiante()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permisos";
 		}
 
 		[HttpPost]
 
 		public string AgregarEstudiante()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permisos";
 		}
 
 		[HttpDelete]
 		public string BorrarEstudiante()
 		{
-			return "Ok Bro no molestes";
+			return "No tiene permisos";
 		}
 
 	}
