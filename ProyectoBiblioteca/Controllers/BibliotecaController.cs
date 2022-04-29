@@ -17,7 +17,7 @@ namespace ProyectoBiblioteca.Controllers
 
 		public string ObtenerLibro() 
 		{ 
-			return "Libro";
+			return "Libro:";
 		}
 
 		[HttpPut]
